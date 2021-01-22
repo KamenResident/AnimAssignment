@@ -6,6 +6,7 @@ ASSET_MANAGER.downloadAll(function () {
 	var gameEngine = new GameEngine();
 	var canvas = document.getElementById('gameWorld');
 	var ctx = canvas.getContext('2d');
+	ctx.imageSmoothingEnabled = false;
 
 	var spritesheet = ASSET_MANAGER.getAsset("./sprites/megamansprites.png");
 	let megaman = new Megaman(gameEngine, 0, 0, spritesheet);
