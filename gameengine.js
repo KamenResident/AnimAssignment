@@ -5,9 +5,9 @@ class GameEngine {
         this.entities = [];
         this.showOutlines = false;
         this.ctx = null;
-        this.click = null;
-        this.mouse = null;
-        this.wheel = null;
+        // this.click = null;
+        // this.mouse = null;
+        // this.wheel = null;
         this.surfaceWidth = null;
         this.surfaceHeight = null;
     };
